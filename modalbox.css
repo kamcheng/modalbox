@@ -1,0 +1,61 @@
+/*------------Simplebox overlay ------------------------*/
+
+#simpleoverlay
+{
+    position:fixed; 
+    top:0; 
+    left:0; 
+    z-index: 150; 
+    filter:alpha(opacity=50);
+    opacity: 0.5;
+    -moz-opacity:0.5;
+    width:100%; 
+    height:100%;
+    background:#fff;
+}
+
+#simplebox 
+{
+    position:fixed; 
+    z-index: 151; 
+    width:100%; 
+    height:100%;
+}
+
+#simplebox .loading
+{
+    position:fixed;
+    width: 300px;
+    height: 300px;
+    display: block;
+    left:50%; 
+    top: 100px;
+    margin-left: -150px;
+    border: 4px solid #7e7876;
+    background: #333333 url(../Images/ajax-loader.gif) no-repeat 50% 45%;
+}
+
+.close
+{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    font-weight:bold;
+    font-size: 16px;
+    font-family: sans-serif;
+    cursor: pointer;
+    color: #7E7876;
+}
+
+.close:hover
+{
+    color: #ffffff;
+    text-shadow: 0 0 5px #fff ;
+}
+
+#complete 
+{
+    display: none;
+}
+
