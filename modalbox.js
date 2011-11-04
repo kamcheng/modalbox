@@ -1,11 +1,11 @@
 ﻿
 // EXAMPLES: open modal based on href locations
-//<a href="/noHtmlHeaders" class="modal">click to open modal</a> 
+//<a href="/localhost/noHtmlHeaders.html" class="modal">click to open modal</a> 
 //$('.modal').modalbox();
 
 // EXAMPLES: open modal with same page
 //<a href="#" class="shareEmail">same modal</a> 
-//$('.shareEmail').modalbox({isEmail:true, url: 'http://www.yahoo.com'});
+//$('.shareEmail').modalbox({isEmail:true, url: '/localhost/test.html'});
 
 // click on element with classname 'shareEmail' or 'modal', overlay will be appended to body and popup with yahoo's web site.
 

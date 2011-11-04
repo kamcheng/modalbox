@@ -1,4 +1,4 @@
-/*------------Simplebox overlay ------------------------*/
+/*------------modalbox overlay ------------------------*/
 
 #simpleoverlay
 {
@@ -14,7 +14,7 @@
     background:#fff;
 }
 
-#simplebox 
+#modalbox 
 {
     position:fixed; 
     z-index: 151; 
@@ -22,7 +22,7 @@
     height:100%;
 }
 
-#simplebox .loading
+#modalbox .loading
 {
     position:fixed;
     width: 300px;
